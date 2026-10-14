@@ -1,6 +1,6 @@
 # Tailscale Cache Cleaner User Guide
 
-Version 1.1.0 (build 4)
+Version 1.1.1 (build 5)
 
 ## Purpose
 
@@ -189,7 +189,7 @@ Tailscale's documentation for those details.
 - [Project website](https://code.matx.ca)
 - [Source repository](https://github.com/macvfx/rmTS)
 - [Troubleshoot multiple devices with the same 100.x IP address](https://tailscale.com/docs/reference/troubleshooting/network-configuration/multiple-devices-same-100-x-ip-address)
-- [Uninstall Tailscale](https://tailscale.com/docs/features/client/uninstall)
+- [Uninstall Tailscale — macOS standalone](https://tailscale.com/docs/features/client/uninstall?tab=macos+%28standalone%29)
 - [Install Tailscale](https://tailscale.com/docs/install)
 
 This independent utility is not affiliated with or endorsed by Tailscale Inc.

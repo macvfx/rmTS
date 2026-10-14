@@ -325,10 +325,10 @@ private final class AppDelegate: NSObject, NSApplicationDelegate {
             .font: NSFont.systemFont(ofSize: 11),
             .foregroundColor: NSColor.labelColor,
         ]
-        credits.append(NSAttributedString(string: "Project website\n", attributes: baseAttributes.merging([
+        credits.append(NSAttributedString(string: "code.matx.ca\n", attributes: baseAttributes.merging([
             .link: URL(string: "https://code.matx.ca")!,
         ]) { _, new in new }))
-        credits.append(NSAttributedString(string: "Source code on GitHub", attributes: baseAttributes.merging([
+        credits.append(NSAttributedString(string: "github.com/macvfx/rmTS", attributes: baseAttributes.merging([
             .link: URL(string: "https://github.com/macvfx/rmTS")!,
         ]) { _, new in new }))
 
@@ -424,8 +424,12 @@ private final class AppDelegate: NSObject, NSApplicationDelegate {
         append("The cleaner refuses to run unless it has administrator access, refuses while Tailscale is running, does not follow symbolic links, and never searches broadly for files to delete.\n", font: bodyFont)
 
         append("More information\n", font: .systemFont(ofSize: 16, weight: .semibold), spacing: 5)
-        appendLink("Project website — code.matx.ca", url: "https://code.matx.ca")
-        appendLink("Source code — github.com/macvfx/rmTS", url: "https://github.com/macvfx/rmTS")
+        appendLink("code.matx.ca", url: "https://code.matx.ca")
+        appendLink("github.com/macvfx/rmTS", url: "https://github.com/macvfx/rmTS")
+        appendLink(
+            "Tailscale standalone macOS uninstall guide",
+            url: "https://tailscale.com/docs/features/client/uninstall?tab=macos+%28standalone%29"
+        )
 
         return result
     }

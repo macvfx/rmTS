@@ -106,11 +106,11 @@ Both tests use disposable fixture trees and preserve unrelated data.
 - [Project website](https://code.matx.ca)
 - [Source repository](https://github.com/macvfx/rmTS)
 - [Official Tailscale duplicate-IP troubleshooting](https://tailscale.com/docs/reference/troubleshooting/network-configuration/multiple-devices-same-100-x-ip-address)
-- [Official Tailscale uninstall and complete-reset guidance](https://tailscale.com/docs/features/client/uninstall)
+- [Official Tailscale standalone macOS uninstall and complete-reset guidance](https://tailscale.com/docs/features/client/uninstall?tab=macos+%28standalone%29)
 
 ## Project status
 
-Version 1.1.0 (build 4). The macOS authorization bridge uses Apple's deprecated
+Version 1.1.1 (build 5). The macOS authorization bridge uses Apple's deprecated
 `AuthorizationExecuteWithPrivileges` ABI through a small compiled C shim. This
 keeps the utility self-contained, but it is a maintenance boundary. A future
 widely distributed version should migrate to a separately installed and signed
