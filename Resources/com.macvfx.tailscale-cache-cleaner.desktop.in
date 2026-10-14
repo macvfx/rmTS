@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Tailscale Cache Cleaner
+Comment=Preview and reset local Tailscale cache and node state
+Exec=@APP_EXEC@
+Icon=network-vpn
+Terminal=false
+Categories=System;Network;
+Keywords=Tailscale;VPN;cache;reset;
